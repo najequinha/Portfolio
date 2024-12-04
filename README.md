@@ -1,2 +1,2 @@
 # Portfolio
-Creating my own portfolio. A
+Creating my own portfolio.

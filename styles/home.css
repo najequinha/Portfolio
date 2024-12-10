@@ -1,0 +1,29 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 97px);
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+    background: linear-gradient(180deg, var(--color-primary-1), var(--color-primary-2));
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.page-title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.title{
+    font-family: 'poppins';
+    font-weight: 500;
+    color: var(--color-primary-4);
+}
+.title span{
+    color: var(--color-primary-3);
+    font-size: 1.5rem;
+}
+.title .collage{
+    width: 300px;
+}

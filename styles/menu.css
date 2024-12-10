@@ -1,0 +1,34 @@
+.menu{
+    width: 100%;
+    height: 97px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    position: sticky;
+    z-index: 3;
+    background-color: var(--color-primary-1)
+}
+.nav-bar{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    color: var(--color-primary-4);
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-size: 1.125rem;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--color-primary-4);
+    font-family: 'Nunito';
+    font-size: 1rem;
+}

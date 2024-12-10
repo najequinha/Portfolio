@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('menu.css');
+@import url('home.css');
+
+:root{
+    --color-primary-1: #FAF5FF;
+    --color-primary-2: #F2C4D4  ;
+    --color-primary-3: #FF4DA6;
+    --color-primary-4: #4A4A4A;
+    --color-primary-5: #2C2C2C;
+
+    --color-neutra-0: #fff;
+    --color-neutra-1: #1d1d1d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'Nunito,' sans-serif;;
+}

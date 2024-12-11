@@ -19,16 +19,18 @@
     color: var(--color-primary-4);
     text-decoration: none;
     font-family: 'Nunito';
-    font-size: 1.125rem;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 .nav-list{
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 50px;
 }
 .nav-link{
     text-decoration: none;
     color: var(--color-primary-4);
     font-family: 'Nunito';
     font-size: 1rem;
+    font-weight: 600;
 }

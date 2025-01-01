@@ -5,6 +5,7 @@
 @import url('menu.css');
 @import url('home.css');
 @import url('habilidades.css');
+@import url('projetos.css');
 
 :root{
     --color-primary-1: #FAF5FF;

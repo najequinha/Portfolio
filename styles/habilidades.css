@@ -1,0 +1,35 @@
+#habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    background-color: var(--color-primary-5);
+    font-family: 'poppins', 'Nunito';
+}
+.section-title2{
+    /* justify-items: center; */
+    padding-bottom: 25px;
+    font-family: 'poppins';
+    font-size: 1.75rem;
+    color: var(--color-primary-1);
+    font-weight: 500;
+}
+#subtitle-Habilidades{
+    font-family: 'Nunito';
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--color-primary-1);
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.table{
+    align-items: center;
+    justify-content: center;
+    /* color: var(--color-primary-1); */
+}

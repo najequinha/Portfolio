@@ -16,7 +16,7 @@
     font-size: 1.75rem;
     color: var(--color-primary-1);
     font-weight: 500;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 #subtitle-Projetos{
     font-family: 'Nunito';
@@ -25,4 +25,41 @@
     color: var(--color-primary-1);
     font-weight: 300;
     padding-bottom: 25px;
+}
+/* .template-area{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+.template{
+    justify-content: center;
+    align-items: center;
+
+} */
+.template-area{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap; 
+}
+.template{
+    background-color: #2a2a2a; 
+    width: 350px;
+    height: 350px;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden; 
+}
+.blank-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.8; 
+    transition: opacity 0.3s ease;
+}
+.template:hover .blank-img{
+    opacity: 1;
 }

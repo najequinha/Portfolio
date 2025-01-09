@@ -1,0 +1,239 @@
+#contato{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    /* justify-content: flex-start; */
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    /* padding-left: 100px; */
+    box-sizing: border-box;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    background-color: var(--color-primary-4);
+    font-family: 'poppins', 'Nunito';
+}
+.contato-first-slice{
+    padding-top: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+.section-title4{
+    padding-bottom: 10px;
+    font-family: 'poppins';
+    font-size: 1.75rem;
+    color: var(--color-primary-1);
+    font-weight: 500;
+}
+#subtitle-Contato{
+    font-family: 'Nunito';
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--color-primary-1);
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.social-media-link{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-primary-1);
+}
+.social-media{
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    gap: 10px;
+    color: var(--color-primary-1);
+}
+.social-media:hover{
+    color: var(--color-primary-3);
+    transition: 0.3s ease;
+}
+.social-media i{
+    padding-top: 4px;
+    font-size: 1.5rem;
+    color: var(--color-primary-1);
+}
+.social-media i:hover{
+    color: var(--color-primary-3);
+    transition: 0.3s ease;
+}
+.social-media-text{
+    padding-bottom: 15px;
+}
+.social-media-name{
+    font-weight: 600;
+}
+.social-media-username{
+    font-weight: 300;
+    font-style: italic;
+}
+.contato-second-slice{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: var(--color-primary-5);
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.form-itself{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    /* background-color: red; */
+}
+.form-header{
+    display: flex;
+    justify-content: flex-start;
+}
+.form-title{
+    color: var(--color-primary-1);
+    size: 1.25rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.input-group{
+    /* background-color: blue; */
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* align-items: stretch; */
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.label{
+    color: var(--color-primary-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .contato-second-slice:hover{
+    background-color: var(--color-primary-3);
+    transition: 0.3s ease;
+} */
+/* .box-title{
+    padding-top: 25px;
+    color: var(--color-primary-1);
+    size: 1.25rem;
+}
+
+.message-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: red;
+    align-items: center;
+}
+
+form {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center; 
+    width: 100%;
+    margin: 0 auto; 
+}
+
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.campo label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: var(--color-neutra-0);
+    font-family: 'Nunito';
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: var(--color-primary-3);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--color-primary-1);
+    background-color: var(--color-primary-3);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: var(--color-primary-6);
+    color: var(--color-primary-1);
+} */

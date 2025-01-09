@@ -43,7 +43,7 @@
     flex-wrap: wrap; 
 }
 .template{
-    background-color: #2a2a2a; 
+    /* background-color: #2a2a2a;  */
     width: 350px;
     height: 350px;
     border-radius: 10px; 

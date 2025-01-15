@@ -91,7 +91,7 @@
     width: 100%; 
     background-color: var(--color-primary-5);
     border-radius: 35px;
-    height: 35px;
+    height: 10px;
     overflow: hidden; 
     margin-top: 5px;
 }

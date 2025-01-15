@@ -44,8 +44,8 @@
 }
 .template{
     /* background-color: #2a2a2a;  */
-    width: 350px;
-    height: 350px;
+    width: 25%;
+    height: 25%;
     border-radius: 10px; 
     display: flex;
     justify-content: center;

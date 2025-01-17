@@ -7,6 +7,7 @@
     <title>Ana Julia - Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
 
 </head>
 
@@ -17,7 +18,7 @@
                 <h3>najequinha:3</h3>
             </a>
             <ul class="nav-list">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="#home" class="nav-link">Sobre mim</a>
                 </li>
 
@@ -51,83 +52,281 @@
 
     <section id="home">
 
-        <div class="page-title">
-            <h1 class="title">
-                Olá, meu nome é <span>Ana Julia</span>,<br>
-                esse é meu <br> 
-                <img src="assets/collage-transparent.png" alt="" class="collage"> <br>
-                e eu sou <br>
-                <span>desenvolvedora front-end</span>
-            </h1>
+        <div class="full-home-content">
+
+            <div class="page-header">
+
+                <div class="page-title">
+                    <h1 class="title">
+                        Olá, meu nome é <span>Ana Julia</span>,<br>
+                        esse é meu <br> 
+                        <img src="assets/collage-transparent.png" alt="" class="collage"> <br>
+                        e eu sou <br>
+                        <span>desenvolvedora front-end</span>
+                    </h1>
+                </div>
+        
+                <div class="icon">
+                    <img src="assets/eu.png" alt="" class="icon-img">
+                </div>
+
+            </div>
+
+            <div class="sobremim">
+                <h2 class="section-title1">
+                    Sobre mim
+                </h2>
+                    <div class="card-area">
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="assets/documento.png" alt="" class="icon-itself">
+                            </div>
+                            <div class="card-text">
+                                <h3 class="card-title">
+                                    Informações básicas
+                                </h3>
+                                <span class="card-descricao">
+                                    Olá! Meu nome é Ana Julia e sou estudante do curso técnico em Desenvolvimento de Sistemas do, atualmente me especializando em desenvolvimento web Front-end.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="assets/alvo.png" alt="" class="icon-itself">
+                            </div>
+                            <div class="card-text">
+                                <h3 class="card-title">
+                                    Objetivo profissional
+                                </h3>
+                                <span class="card-descricao">
+                                    Tenho como objetivo contribuir para projetos desafiadores, aplicando minhas habilidades em um ambiente colaborativo que valorize inovação e crescimento contínuo.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="assets/livro.png" alt="" class="icon-itself">
+                            </div>
+                            <div class="card-text">
+                                <h3 class="card-title">
+                                    Backstory
+                                </h3>
+                                <span class="card-descricao">
+                                    Minha trajetória profissional reflete curiosidade e dedicação. Valorizo o aprendizado constante e o impacto positivo, sempre motivada por desafios e novas oportunidades.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="assets/coracao.png" alt="" class="icon-itself">
+                            </div>
+                            <div class="card-text">
+                                <h3 class="card-title">
+                                    Hobbies
+                                </h3>
+                                <span class="card-descricao">
+                                    Nos momentos de lazer, gosto de explorar hobbies como leitura, assistir séries, jogar e aprender novas habilidades, sempre buscando criatividade e descontração.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
         </div>
 
-        <div class="icon">
-            <img src="assets/Icon.png" alt="" class="icon-img">
-        </div>
+    </section>
 
-        <div id="sobremim">
-            <h2 class="section-title1">
-                Sobre mim
-            </h2>
-                <div class="card-area">
-                    <div class="card">
-                        <div class="card-icon">
-                            <img src="assets/Person pin.png" alt="" class="icon-itself">
-                        </div>
-                        <div class="card-text">
-                            <h3 class="card-title">
-                                Informações básicas
-                            </h3>
-                            <span class="card-descricao">
-                                Olá! Meu nome é Ana Julia e sou estudante do curso técnico em Desenvolvimento de Sistemas do Senac Hub Academy, atualmente me especializando em desenvolvimento web Front-end.
-                            </span>
-                        </div>
+    <section id="habilidades">
+
+        <div class="page-title-Habilidades">
+
+            <h2 class="section-title2">Habilidades</h2>
+            <span id="subtitle-Habilidades">Hard skills + respectiva proficiência</span>
+        
+        </div>
+        
+        <div class="table">
+            <h4 class="especificacao">Linguagens de programação</h4>
+
+            <div class="columns">
+                <div class="column-content">
+                    <div class="tool-icon">
+                        <i class="fa-brands fa-python"></i>
                     </div>
-                    <div class="card">
-                        <div class="card-icon">
-                            <img src="assets/briefcase.png" alt="" class="icon-itself">
-                        </div>
-                        <div class="card-text">
-                            <h3 class="card-title">
-                                Informações básicas
-                            </h3>
-                            <span class="card-descricao">
-                                Olá! Meu nome é Ana Julia e sou estudante do curso técnico em Desenvolvimento de Sistemas do Senac Hub Academy, atualmente me especializando em desenvolvimento web Front-end.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">
-                            <img src="assets/Person pin.png" alt="" class="icon-itself">
-                        </div>
-                        <div class="card-text">
-                            <h3 class="card-title">
-                                Informações básicas
-                            </h3>
-                            <span class="card-descricao">
-                                Olá! Meu nome é Ana Julia e sou estudante do curso técnico em Desenvolvimento de Sistemas do Senac Hub Academy, atualmente me especializando em desenvolvimento web Front-end.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">
-                            <img src="assets/Person pin.png" alt="" class="icon-itself">
-                        </div>
-                        <div class="card-text">
-                            <h3 class="card-title">
-                                Informações básicas
-                            </h3>
-                            <span class="card-descricao">
-                                Olá! Meu nome é Ana Julia e sou estudante do curso técnico em Desenvolvimento de Sistemas do Senac Hub Academy, atualmente me especializando em desenvolvimento web Front-end.
-                            </span>
+                    <div class="column-flex">
+                        <span class="tool-name">Python</span>
+                        
+                        <div class="bar-container">
+                            <div class="bar" data-percent="70"></div>
+                            <div class="percent-container">
+                                <span class="percent">70%</span>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="column-content">
+                    <div class="tool-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="column-flex">
+                        <span class="tool-name">SQL</span>
+
+                        <div class="bar-container">
+                            <div class="bar" data-percent="70"></div>
+                            <div class="percent-container">
+                                <span class="percent">70%</span>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="especificacao">Desenvolvimento front-end</h4>
+
+            <div class="columns">
+
+                <div class="column-content">
+                    <div class="tool-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="column-flex">
+                        <span class="tool-name">HTML</span>
+                        <div class="bar-container">
+                            <div class="bar" data-percent="90"></div>
+                            <div class="percent-container">
+                                <span class="percent">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="column-content">
+                    <div class="tool-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="column-flex">
+                        <span class="tool-name">CSS</span>
+                        <div class="bar-container">
+                            <div class="bar" data-percent="67"></div>
+                            <div class="percent-container">
+                                <span class="percent">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </section>
 
-    </main>
+
+    <section id="projetos">
+
+        <h2 class="section-title3">
+            Meus projetos
+        </h2>
+
+        <span id="subtitle-Projetos">
+            Projetos desenvolvidos por mim/com minha participação
+        </span>
+
+        <div class="template-area">
+
+                <div class="template">
+                    <img src="assets/blank image.png" alt="" class="blank-img">
+                </div>
+                
+                <div class="template">
+                    <img src="assets/blank image.png" alt="" class="blank-img">
+                </div>
+
+                <div class="template">
+                    <img src="assets/blank image.png" alt="" class="blank-img">
+                </div>
+
+        </div>
 
     </section>
+
+    <section id="contato">
+        <div class="contato-first-slice">
+    
+            <h2 class="section-title4">Contato</h2>
+            
+            <span id="subtitle-Contato">Você pode me encontrar nas seguintes redes sociais:</span>
+    
+            <div class="social-media-link">
+
+                <a href="https://www.linkedin.com/in/arrudafana/" class="social-media">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <div class="social-media-text">
+                        <h5 class="social-media-name">LinkedIn</h5>
+                        <h6 class="social-media-username">arrudafana</h6>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="social-media-link">
+
+                <a href="https://github.com/najequinha" class="social-media">
+                    <i class="fa-brands fa-github"></i>
+                    <div class="social-media-text">
+                        <h5 class="social-media-name">GitHub</h5>
+                        <h6 class="social-media-username">najequinha</h6>
+                    </div>
+                </a>
+            </div>
+    
+        </div>
+    
+        <div class="contato-second-slice">
+
+            <div class="form-itself">
+
+                <form action="#">
+
+                    <div class="form-header">
+
+                        <h4 class="form-title">Ou, me contate diretamente</h4>
+
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="name" class="title-label">Seu nome</label>
+                            <input type="text" class="input-area" id="name" name="name" placeholder="Digite seu nome aqui" required>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="email" class="title-label">Seu e-mail</label>
+                            <input type="email" class="input-area" id="email" name="email" placeholder="Digite seu e-mail aqui" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="message" class="title-label">Mensagem</label>
+                            <input type="text" class="input-area" id="message" name="message" placeholder="Digite sua mensagem aqui" required>
+                        </div>
+
+                    </div>
+
+                    <div class="send-button">
+
+                        <button class="button-itself">Enviar</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div> 
+    </section>
+    
+
+    </main>
+
+    <!-- </section> -->
 </body>
 </html>
+

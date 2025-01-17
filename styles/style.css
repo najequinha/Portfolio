@@ -4,13 +4,17 @@
 
 @import url('menu.css');
 @import url('home.css');
+@import url('habilidades.css');
+@import url('projetos.css');
+@import url('contato.css');
 
 :root{
-    --color-primary-1: #FAF5FF;
-    --color-primary-2: #F2C4D4  ;
-    --color-primary-3: #FF4DA6;
-    --color-primary-4: #4A4A4A;
-    --color-primary-5: #2C2C2C;
+    --color-primary-1: rgb(250, 245, 255);
+    --color-primary-2: rgb(242, 196, 212) ;
+    --color-primary-3: rgb(255, 77, 166);
+    --color-primary-4: rgb(74, 74, 74);
+    --color-primary-5: rgb(44, 44, 44);
+    --color-primary-6: rgb(204, 61, 133);
 
     --color-neutra-0: #fff;
     --color-neutra-1: #1d1d1d;

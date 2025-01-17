@@ -1,0 +1,118 @@
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    padding: 100px;
+    background-color: var(--color-primary-4);
+}
+
+.page-title-Habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+.section-title2{
+    padding-bottom: 10px;
+    font-family: 'poppins';
+    font-size: 1.75rem;
+    color: var(--color-primary-1);
+    font-weight: 500;
+}
+#subtitle-Habilidades{
+    font-family: 'Nunito';
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--color-primary-1);
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+    width: 75%;
+}
+.especificacao{
+    color: var(--color-primary-1);
+    font-family: 'poppins';
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.columns{
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.column-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.tool-icon{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-1);
+    border-radius: 100%;
+    box-shadow: 0 16px 32px var(--color-primary-3);
+}
+.tool-icon i{
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: linear-gradient(180deg, var(--color-primary-5), var(--color-primary-3));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tool-name{
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-primary-1);
+    margin-bottom: 5px;
+}
+.bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    background-color: var(--color-primary-5);
+    border-radius: 35px;
+    height: 10px;
+    overflow: hidden; 
+    margin-top: 5px;
+}
+.bar {
+    width: 0; 
+    height: 100%; 
+    background-color: var(--color-primary-3); 
+    border-radius: 35px; 
+    transition: width 1s ease-in-out; 
+}
+.percent {
+    font-family: 'Nunito';
+    margin-left: 10px;
+    color: var(--color-primary-1);
+}
+.column-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.column-flex {
+    flex: 1;
+    margin-left: 10px;
+}

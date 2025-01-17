@@ -6,7 +6,8 @@
     padding-top: 20px;
     position: sticky;
     z-index: 3;
-    background-color: var(--color-primary-1)
+    background-color: var(--color-primary-1);
+    /* background-color: red; */
 }
 .nav-bar{
     width: 100%;
@@ -34,3 +35,179 @@
     font-size: 1rem;
     font-weight: 600;
 }
+<<<<<<< Updated upstream
+
+@media screen and (max-width: 860px){
+    .menu{
+        width: 100%;
+        height: 77px;
+=======
+@media screen and (max-width: 860px){
+    .menu{
+        width: 100%;
+        height: 97px;
+>>>>>>> Stashed changes
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        position: sticky;
+        z-index: 3;
+<<<<<<< Updated upstream
+        background-color: var(--color-primary-1);
+        /* background-color: red; */
+    }
+    .nav-bar{
+        width: 100%;
+=======
+        background-color: var(--color-primary-1)
+    }
+    .nav-bar{
+        width: 100%;
+        /* height: 100%; */
+>>>>>>> Stashed changes
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-logo{
+        color: var(--color-primary-4);
+        text-decoration: none;
+        font-family: 'Nunito';
+<<<<<<< Updated upstream
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .nav-list{
+        padding-left: 25px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: var(--color-primary-4);
+        font-family: 'Nunito';
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 727px){
+    .menu{
+        width: 100%;
+        height: 75px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        position: sticky;
+        z-index: 3;
+        background-color: var(--color-primary-1);
+        /* background-color: red; */
+    }
+    .nav-bar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-logo{
+        width: 15%;
+        color: var(--color-primary-4);
+        text-decoration: none;
+        font-family: 'Nunito';
+        font-size: 0.8rem;
+        font-weight: 500;
+        background-color: green;
+    }
+    .nav-list{
+        width: 80%;
+        background-color: blue;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: var(--color-primary-4);
+        font-family: 'Nunito';
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .menu{
+        width: 100%;
+        height: 75px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        position: sticky;
+        z-index: 3;
+        background-color: var(--color-primary-1);
+        /* background-color: red; */
+    }
+    .nav-bar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-logo{
+        width: 15%;
+        color: var(--color-primary-4);
+        text-decoration: none;
+        font-family: 'Nunito';
+        font-size: 0.8rem;
+        font-weight: 500;
+        background-color: green;
+    }
+    .nav-list{
+        width: 80%;
+        background-color: blue;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: var(--color-primary-4);
+        font-family: 'Nunito';
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+}
+=======
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    .nav-list{
+        display: flex;
+        list-style: none;
+        gap: 50px;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: var(--color-primary-4);
+        font-family: 'Nunito';
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+}
+>>>>>>> Stashed changes

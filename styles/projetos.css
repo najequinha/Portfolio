@@ -1,0 +1,65 @@
+#projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-primary-5);
+    font-family: 'poppins', 'Nunito';
+}
+.section-title3{
+    font-family: 'poppins';
+    font-size: 1.75rem;
+    color: var(--color-primary-1);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+#subtitle-Projetos{
+    font-family: 'Nunito';
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--color-primary-1);
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+/* .template-area{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+.template{
+    justify-content: center;
+    align-items: center;
+
+} */
+.template-area{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap; 
+}
+.template{
+    /* background-color: #2a2a2a;  */
+    width: 25%;
+    height: 25%;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 16px 32px var(--color-primary-4);
+    overflow: hidden; 
+}
+.blank-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.8; 
+    transition: opacity 0.3s ease;
+}
+.template:hover .blank-img{
+    opacity: 1;
+}
